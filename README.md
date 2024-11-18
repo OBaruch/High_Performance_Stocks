@@ -79,9 +79,8 @@ Example output:
 
 2. **Calculate Annual Returns**:
    - Yearly returns are calculated using:
-     \[
-     	ext{Annual Return (\%)} = rac{	ext{Close Price (Year End)}}{	ext{Close Price (Previous Year End)}} - 1
-     \]
+
+   Annual Return (%) = [(Close Price (Year End) / Close Price (Previous Year End)) - 1] × 100
 
 3. **Filter Stocks**:
    - Stocks with an average annual return exceeding 10% are selected for the final output.
